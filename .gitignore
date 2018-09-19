@@ -1,5 +1,6 @@
 .gdb_history
 solutions/*
+solutions*
 .*peda*
 *peda*
 */core

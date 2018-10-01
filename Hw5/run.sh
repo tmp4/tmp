@@ -1,10 +1,12 @@
 #!/bin/bash
 
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
 pip install pwntools
 export TERM=linux
 echo 'Password?'
 ./dec.sh 
 
 cd solutions
-~/.local/bin/pip2.7 install ipython --user
-~/.local/bin/ipython $1
+ipython $1
